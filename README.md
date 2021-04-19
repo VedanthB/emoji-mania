@@ -3,4 +3,4 @@ Created with CodeSandbox
 - emoji dictionary
 - mark eight
 
-live app: 
+live app: https://csb-r5x8c.netlify.app

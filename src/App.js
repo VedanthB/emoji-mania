@@ -75,7 +75,7 @@ export default function App() {
   const [emoji, setEmoji] = useState(""); /** concept 2 is useState */
   const [meaning, setMeaning] = useState("translation will appear here..");
 
-  function changeHandler(event) {
+  const changeHandler  = event => {
     const inputEmoji = event.target.value;
     setEmoji(inputEmoji);
 
@@ -86,7 +86,7 @@ export default function App() {
     }
   }
 
-  function emojiClickHandler(inputEmoji) {
+  const emojiClickHandler = inputEmoji => {
     setMeaning(emojiDictionary[inputEmoji]);
   }
 
